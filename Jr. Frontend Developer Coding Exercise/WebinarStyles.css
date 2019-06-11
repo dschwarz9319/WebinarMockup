@@ -1,0 +1,135 @@
+body {
+    font-family:"Lato", sans-serif;
+    max-width: 500px;
+    margin: auto;
+}
+
+topper {
+   font-family: "Arial", sans-serif;
+   font-size: 12px;
+   text-align: center;
+}
+
+thingsShown {
+    font-size: 10px;
+}
+
+tinyFont {
+    font-size: 8px;
+}
+
+quote {
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+}
+
+.countdownContainer {
+   width: 500px;
+   margin: auto;
+}
+#calenderBlock {
+   width: 160px;
+   float: left;
+   height: 160px;
+   background-color: #71a1be;
+   color: white;
+   font-size: 15px;
+   text-align: center;
+}
+#spacerBlock {
+    width: 15px;
+    height: 160px;
+    background-color: white;
+}
+#timeLeftBlock {
+   width: 325px;
+   float: right;
+   height: 160px;
+   background-color: #71a1be;
+   color: white;
+}
+
+.authorContainer {
+   width: 500px;
+   margin: auto;
+   overflow: hidden;
+}
+
+#bioBlock {
+   width: 250px;
+   float: left;
+   height: 375px;
+   background-color: #05263a;
+   color: white;
+}
+
+#showYouBlock {
+   width: 250px;
+   float: right;
+   height: 375px;
+   background-color: rgb(235,235,235);
+}
+
+#limitedSpaceBlock {
+    width: 500px;
+    height: 50px;
+    background-color: #f58c99;
+    color: white;
+    margin-top: 10px;
+ }
+
+ #claimYourSpotBlock {
+    width: 500px;
+    height: 65px;
+    background-color: #05263a;
+    color: white;
+    text-align: center;
+ }
+
+.registerButton {
+   border-radius: 10px;
+   background:  #005282;
+   color:white;
+   text-align: center;
+   padding-left: 10%;
+   padding-right: 10%;
+   width: 300px;
+   height: 50px;  
+   margin: auto;
+   cursor: pointer;
+   display: flex;
+   justify-content: center;
+ }
+
+hr { 
+   display: block;
+   margin-top: 0.5em;
+   margin-bottom: 0.5em;
+   margin-left: auto;
+   margin-right: auto;
+   border-style: inset;
+   border-width: 12px;
+   border: 1px solid  #005282;
+ }
+
+ .horizontallyCentered {
+    text-align: center;
+  }
+
+  #downTriangle {
+    width: 0;
+    height: 0;
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+    border-top: 25px solid #05263a;
+    margin-left: 175px;
+  }
+
+  /* For mobile phones: */
+[class*="authorContainer"] {
+  width: 100%;
+}
+[class*="countdownContainer"] {
+    width: 100%;
+  }
